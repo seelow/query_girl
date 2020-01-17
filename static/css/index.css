@@ -9,12 +9,14 @@
 }
 
 .ph{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     text-align:center;
 }
 
 .ib{
+    width:50%;
+    height:50%;
     margin: 0 auto;
 }
 
