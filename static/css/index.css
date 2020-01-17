@@ -1,0 +1,23 @@
+.body{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    padding: .6rem 0;
+    width: 100%;
+    background-image: -webkit-linear-gradient(left , #ffcc99, #ff3399);
+}
+
+.ph{
+    font-size: 1.5em;
+    color: white;
+    text-align:center;
+}
+
+.ib{
+    margin: 0 auto;
+}
+
+.sbtn{
+    width:12em;
+}
