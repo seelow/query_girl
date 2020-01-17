@@ -8,5 +8,9 @@ manager = Manager(app=app)
 def index():
     return render_template('index.html')
 
+@app.route('/vx')
+def index_x():
+    return render_template('index_x.html')
+
 if __name__ == '__main__':
     manager.run()
