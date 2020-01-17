@@ -6,7 +6,7 @@ manager = Manager(app=app)
 
 @app.route('/')
 def index():
-    return render_template('indexv1.html')
+    return render_template('indexv_1.html')
 
 @app.route('/vx')
 def index_x():
