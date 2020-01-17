@@ -1,9 +1,11 @@
 $(function(){
-    var flag_n=0;
+    var flag_n=-1;
     var flag_y=0;
 　　$("#nb").click(function(){
     switch (flag_n)
     {
+        case -1:x="上夜班给你送早餐";
+        break;
         case 0:x="工资上交";
         break;
         case 1:x="家务全包";
@@ -34,7 +36,7 @@ $(function(){
             var bodyshow = $(".body");
             bodyshow.text("");
             bodyshow.append(data);
-            flag_n = 0;
+            flag_n = -1;
             flag_y = 0;
         }
         flag_y++;
