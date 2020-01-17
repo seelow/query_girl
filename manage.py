@@ -6,11 +6,11 @@ manager = Manager(app=app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('indexv1.html')
 
 @app.route('/vx')
 def index_x():
-    return render_template('index_x.html')
+    return render_template('index_xv1.html')
 
 if __name__ == '__main__':
     manager.run()
